@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "targetUrl": "https://n8n.sonax.io/webhook-test/3ec513c1-b697-449e-8d7d-fa9d33164242",
+    "maxConcurrentRequests": 10
+  },
+  "subscriptions": {
+    "crmObjects": [
+      {
+        "subscriptionType": "object.propertyChange",
+        "objectName": "contact",
+        "propertyName": "firstname",
+        "active": true
+      },
+      {
+        "subscriptionType": "object.creation",
+        "objectName": "contact",
+        "active": true
+      }
+    ],
+    "legacyCrmObjects": [
+      {
+        "subscriptionType": "contact.propertyChange",
+        "propertyName": "lastname",
+        "active": true
+      },
+      {
+        "subscriptionType": "contact.deletion",
+        "active": true
+      }
+    ],
+    "hubEvents": [
+      {
+        "subscriptionType": "contact.privacyDeletion",
+        "active": true
+      }
+    ]
+  }
+}

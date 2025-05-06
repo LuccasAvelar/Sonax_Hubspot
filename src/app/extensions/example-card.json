@@ -1,0 +1,23 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Sonax_conector",
+    "uid": "sonavoip_card",
+    "location": "crm.record.sidebar",
+    "module": {
+      "file": "Example.jsx"
+    },
+    "objectTypes": [
+      {
+        "name": "contacts"
+      },
+      {
+        "name": "deals"
+      },
+      {
+        "name": "tickets"
+      }
+    ],
+    "enabled": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Sonavoip",
+  "description": "Integração para chamadas Sonax diretamente do HubSpot CRM",
+  "uid": "sonavoip_app",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.owners.read",
+    "crm.schemas.deals.read",
+    "crm.objects.custom.read",
+    "crm.objects.custom.write",
+    "business-intelligence",
+    "crm.objects.users.write",
+    "crm.objects.users.read",
+    "integration-sync",
+    "settings.users.read",
+    "settings.users.teams.read",
+    "crm.objects.quotes.read",
+    "crm.objects.appointments.read",
+    "files",
+    "forms",
+    "cms.functions.read",
+    "cms.functions.write",
+    "content",
+    "tickets",
+    "settings.currencies.read",
+    "settings.currencies.write",
+    "crm.import"
+
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/example-card.json"
+        }
+      ],
+      "navigation": [
+        {
+          "file": "extensions/navigation-extension.json"
+        }
+      ]
+    }
+  },
+  "webhooks": {
+    "file": "./webhooks/webhooks.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "crm-navigation",
+  "data": {
+    "title": "Sonavoip",
+    "uid": "sonavoip_navigation",
+    "location": "crm.navigation.primary",
+    "module": {
+      "file": "NavigationExtension.jsx"
+    },
+    "enabled": true
+  }
+}

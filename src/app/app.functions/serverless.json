@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "myFunc": {
+      "file": "example-function.js",
+      "secrets": []
+    },
+    "callWebhook": {
+      "file": "call-webhook-function.js",
+      "secrets": []
+    }
+  }
+}
